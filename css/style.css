@@ -1,0 +1,236 @@
+html { 
+  background: url(images/334285.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body
+{
+}
+header
+{
+height:80px;
+width:100%;
+padding-bottom:20px;
+}
+
+#ul
+{
+float:left;
+}
+#text_li
+{
+float:left;
+list-style:none;
+font-size:32px;
+padding-top:50px;
+color:#000;
+padding:10px;
+margin-top:58px;
+border:#996699 solid 1px;
+border-radius:20px;
+color:#000;
+}
+#text_li a
+{
+text-decoration:none;
+color:#000;
+}
+#text_li:hover
+{
+background-color:#FFFFFF;
+border:#996699 solid 1px;
+color:#000;
+padding:10px;
+cursor:pointer;
+}
+#sroll2
+{
+text-align:center;
+clear:both;
+bottom:0px;
+font-size:65px;
+margin-top:50px;
+padding-top:40px;
+}
+#sroll
+{
+text-align:center;
+clear:both;
+bottom:0px;
+font-size:65px;
+margin-top:50px
+}
+#icon2
+{
+color:#FFFFFF;
+ opacity:0.5;
+}
+#icon2:hover
+{
+color:#006666;
+}
+
+#icon
+{
+ color:#000;
+ opacity:0.5;
+}
+#sroll a
+{
+text-decoration:none;
+}
+#sroll2 a
+{
+text-decoration:none;
+}
+#icon:hover
+{
+color:#006666;
+}
+
+#what-is-sca
+{
+text-align:center;
+padding-top:60px;
+color:#FFFFFF;
+background:#FFFFFF;
+}
+#what-is-sca h1
+{
+font-size:46px;
+font-weight:bold;
+text-transform: uppercase;
+font-family: 'Glegoo', serif;
+}
+#what-is-sca p
+{
+font-size:20px;
+color:#000;
+}
+#how-it-works
+{
+text-align:center;
+padding-top:40px;
+}
+#how-it-works h1
+{
+font-size:46px;
+font-weight:bold;
+color:#FFFFFF;
+text-transform: uppercase;
+font-family: 'Glegoo', serif;
+}
+#how-it-works p
+{
+font-size:20px;
+color:#CCCCCC;
+}
+#sca
+{
+float:left;
+margin:0px auto;
+padding:70px 15%;
+text-align:center;
+height:250px;
+width:70%;
+}
+#sca1
+{
+float:left;
+height:450px;
+width:33%;
+text-align:center;
+}
+#sca1 h4
+{
+font-weight:bold;
+text-transform: uppercase;
+font-family: 'Glegoo', serif;
+}
+#sca1 p
+{
+font-size:15px;
+color:#FFFFFF;
+}
+#sca2
+{
+float:left;
+text-align:center;
+}
+#sca3
+{
+float:left;
+text-align:center;1
+}
+
+#how
+{
+text-align:center;
+height:auto;
+margin:45px auto;
+width:80%;
+padding-bottom:50px;
+}
+#how1
+{
+height:150px;
+margin-left:0 25px;
+font-family: 'Glegoo', serif;
+}
+#how1 ul
+{
+text-align:right;
+list-style-position:inside;
+list-style:none;
+}
+#how1 ul li a
+{
+color:#006666;
+text-decoration:none;
+}
+#get-involved
+{
+text-align:center;
+padding-top:60px;
+}
+#get-involved h1
+{
+font-size:46px;
+font-weight:bold;
+color:#CCCCCC;
+text-transform: uppercase;
+font-family: 'Glegoo', serif;
+}
+#get-involved p
+{
+font-size:20px;
+color:#999999;
+}
+
+#social
+{
+text-align:center;
+padding-top:36px;
+}
+#social h1
+{
+font-size:36px;
+font-weight:bold;
+color:#CCCCCC;
+text-transform: uppercase;
+font-family: 'Glegoo', serif;
+}
+#social p
+{
+font-size:18px;
+color:#666666;
+}
+
+
+*
+{
+margin:0px;
+padding:0px;
+}
