@@ -1,65 +1,45 @@
 <!DOCTYPE>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="images/favicon.png" rel="icon"  />
 <title>SCA: Scrollback Campus Ambassador</title>
-
 <link href="css/style.css" type="text/css" rel="stylesheet"  />
-
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Glegoo:400,700' rel='stylesheet' type='text/css'>
-<style>
-
-html { 
-  background: url(images/334285.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-</style>
-
-
 
 </head>
 <body>
-	<header id="header">
+	<header>
 		<nav>
 			<ul id="ui">
-				<a href="http://web.scrollback.io/" target="_blank"><li style="padding-left:15%; padding-top:35px; padding-right:25%; float:left;"><img src="images/scrollback-large.svg" /></li>
-				<a href="index.html"><li id="text_li" style="padding-left:%;">Home</li></a>
-				<a href="http://campus.scrollback.io/" target="_blank"><li id="text_li" style="margin-left:2%;">Blog</li></a>
-				<a href="http://web.scrollback.io/careers/" target="_blank"><li id="text_li" style="margin-left:2%; float:left;">Career</li></a>
+				<a href="http://web.scrollback.io/" target="_blank"><li class="sca_logo"><img src="images/scrollback-large.svg" /></li></a>
+				<a href="index.html"><li class="text_li">Home</li></a>
+				<a href="http://campus.scrollback.io/" target="_blank"><li class="text_li2">Blog</li></a>
+				<a href="http://web.scrollback.io/careers/" target="_blank"><li class="text_li2">Career</li></a>
 			</ul>
 		</nav>
-		
-		
 	</header>	
-	<div id="sroll">
-		<a href="#what-is-sca"><span id="icon"><i class="fa fa-arrow-circle-o-down"></i></span></a>
+	<div class="sroll">
+		<a href="#what-is-sca"><span class="icon"><i class="fa fa-arrow-circle-o-down"></i></span></a>
 	</div>	
-	<div id="what-is-sca" style="height:700px; width:100%;   background: url(images/sca.jpeg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; margin-top:760px;">
+	<section id="what-is-sca">
 		<h1>What is SCA?</h1>
-		<p style="font-style:italic; color:#CCCCCC;">Scrollback Campus Ambassadors are leaders, who are enthusiastic community builders.</p>
-		<div id="sca">
-			<div id="sca1">
-				<img src="images/scrollbacker.png" border="6" style="border-radius:50%;" width="150" height="150" /><br /><br />
+		<p class="what-is-sca-p">Scrollback Campus Ambassadors are leaders, who are enthusiastic community builders.</p>
+		<div class="sca">
+			<div class="sca1">
+				<img src="images/scrollbacker.png" border="8" class="img_sca" width="150" height="150" /><br /><br />
 				<h4>Who are We?</h4><br />
 				<p>Scrollback Campus Ambassadors are leaders, who are enthusiastic community builders, leading campaigns at their colleges and within their communities to encourage others to use Scrollback as well as contribute to this Open Source project.</p>
 			</div>
-			<div id="sca1">
-				<img src="images/sca-blogger.png" border="6" style="border-radius:50%;" width="150" height="150" /><br /><br />
+			<div class="sca1">
+				<img src="images/sca-blogger.png" border="8" class="img_sca" width="150" height="150" /><br /><br />
 				<h4>What we Do?</h4><br />
 				<p style="color:#FFFFFF;">We Create (and maintain) Scrollback rooms for our respective colleges (or courses), Promote Scrollback within our colleges and communities and encourage others to create their own online communities using Scrollback. </p>
 			</div>
-			<div id="sca1">
-				<img src="images/SCA_of_month.png" border="6" style="border-radius:50%;" width="150" height="150" /><br /><br />
+			<div class="sca1">
+				<img src="images/SCA_of_month.png" border="8" class="img_sca" width="150" height="150" /><br /><br />
 				<h4>How do we do it?</h4><br />
 				<p>The Campus Ambassadors are mentored by the core team members of the Scrollback community to use Scrollback and also help others to use Scrollback and Ambassadors have online meetings every alternate week, to give an update on the status of their work.</p>
 			</div>
@@ -67,28 +47,28 @@ html {
 		<!--<div id="sroll2">
 			<a href="#how-it-works"><span id="icon2"><i class="fa fa-arrow-circle-o-down"></i></span></a>
 		</div>-->
-	</div>
+	</section>
 	
-	<div id="how-it-works" style="height:auto; padding-bottom:25px; width:100%; background-color:#0B040B; ">
+	<div id="how-it-works">
 		<h1>Who, How, What?</h1>
 		<p style="font-style:italic;">Who can be a part of SCA, How can you be a part of SCA, What benefits for you.</p>
-		<div id="how">
-			<div id="how1">
-				<div style="float:left; color:#FFFFFF; text-align:right; padding-right:20px;"><h3>WHO CAN BE SCA?</h3><br />
+		<div class="how">
+			<div class="how1">
+				<div class="who-can">
+					<h3>WHO CAN BE SCA?</h3><br />
 					<ul>
 						<li>If You are a student</li>
 						<li>If You are an Open Source enthusiast</li>
 						<li>If You are a community builder (or willing to be one)</li>
 					</ul>
 				</div>
-				<div style="float:left;"><img src="images/community-builder.png" border="6" style="border-radius:50%; color:#FFFFFF;" width="150" height="150" /></div>
+				<div style="float:left;"><img src="images/community-builder.png" border="8" class="img-sca" width="150" height="150" /></div>
 			</div>
-			<div style="height:150px; border-left:#999999 thick solid; margin-left:48.5%;">
-				
-			</div>
-			<div id="how1" style="margin-left:41.5%;">
-				<div style="float:left;"><img src="images/techie.png" border="6" style="border-radius:50%; color:#FFFFFF;" width="150" height="150" /></div>
-				<div style="float:left; padding-top:0px; color:#FFFFFF; text-align:left; padding-left:20px;"><h3>HOW CAN YOU BE SCA?</h3><br />
+			<div class="centre-line"></div>
+			<div class="how1" style="margin-left:41.5%;">
+				<div style="float:left;"><img src="images/techie.png" border="8" class="img-sca" width="150" height="150" /></div>
+				<div class="how-can">
+					<h3>HOW CAN YOU BE SCA?</h3><br />
 					<ul style="list-style:none; text-align:left;">
 						<li>Join Us at Scrollback Events</li>
 						<li>Join Us at <a href="https://scrollback.io/campus-ambassador">Scrollback Campus Ambassadors Room</a></li>
@@ -96,18 +76,16 @@ html {
 					</ul>
 				</div>
 			</div>
-			<div style="height:150px; border-left:#999999 thick solid;  margin-left:48.5%;">
-				
-			</div>
-			<div id="how1">
-				<div style="float:left; color:#FFFFFF; text-align:right; padding-right:18px;"><h3>WHAT BENEFITS FOR YOU AS SCA?</h3><br />
+			<div class="centre-line"></div>
+			<div class="how1">
+				<div class="who-can"><h3>WHAT BENEFITS FOR YOU AS SCA?</h3><br />
 					<ul>
 						<li>Opportunity to be 'Ambassadors of the Month'</li>
 						<li>Spread the web and gain marketing experience</li>
 						<li>SCA(s) will be awarded by a letter of recommendation</li>
 					</ul>
 				</div>
-				<div style="float:left;"><img src="images/social.png" border="6" style="border-radius:50%; color:#FFFFFF;" width="150" height="150" /></div>
+				<div style="float:left;"><img src="images/social.png" border="8" class="img-sca" width="150" height="150" /></div>
 			</div>
 		</div>
 		<!--<div id="sroll2" style="margin-top:-65px;">
@@ -116,40 +94,48 @@ html {
 	</div>
 	
 	
-	<div id="get-involved" style="height:550px; padding-bottom:50px; width:100%; background-color:#302A2D;">
+	<div id="get-involved">
 		<h1>Get involved</h1>
-		<p style="font-style:italic;">Are you a developer, Community Builder interested in Scrollback? There are many ways to get involved.</p>
-		<div id="sca">
-			<div id="sca1">
-				<a href="http://web.scrollback.io/docs/embedding/" target="_blank"><img src="images/code.jpg" border="8" style="border-radius:50%; color:#FFFFFF;" width="200" height="200" /></a><br /><br />
-				<h4 style="color:#FFFFFF; font-size:20px; text-decoration:underline;">Enable it on your site</h4><br />
-				<p style="font-size:14px; font-family: 'Glegoo', serif;">Add a script and you are Done!</p>
+		<p style="font-style:italic; font-size:20px; color:#CCCCCC; font-family:Georgia, 'Times New Roman', Times, serif">
+		Are you a developer, Community Builder interested in Scrollback? There are many ways to get involved.</p>
+		<div class="get">
+			<div class="get1">
+				<a href="http://web.scrollback.io/docs/embedding/" target="_blank">
+					<img src="images/code.jpg" border="8" class="img-sca" width="200" height="200" />
+				</a><br /><br />
+				<h4>Enable it on your site</h4><br />
+				<p>Add a script and you are Done!</p>
 			</div>
-			<div id="sca1">
-				<a href="https://github.com/scrollback/scrollback" target="_blank"><img src="images/github.png" border="8" style="border-radius:50%; color:#FFFFFF;" width="200" height="200" /></a><br /><br />
-				<h4 style="color:#FFFFFF; font-size:20px; text-decoration:underline;">Hack it on Github</h4><br />
-				<p style="font-size:14px; font-family: 'Glegoo', serif;">It's completely free and open source</p>
+			<div class="get1">
+				<a href="https://github.com/scrollback/scrollback" target="_blank">
+					<img src="images/github.png" border="8" class="img-sca" width="200" height="200" />
+				</a><br /><br />
+				<h4>Hack it on Github</h4><br />
+				<p>It's completely free and open source</p>
 			</div>
-			<div id="sca1">
-				<a href="http://web.scrollback.io/" target="_blank"><img src="images/conversations.png" border="8" style="border-radius:50%; color:#FFFFFF;" width="200" height="200" /></a><br /><br />
-				<h4 style="color:#FFFFFF; font-size:20px; text-decoration:underline;">By someone you trust</h4><br />
-				<p style="font-size:14px; font-family: 'Glegoo', serif;">By An Open Source Organization</p>
+			<div class="get1">
+				<a href="http://web.scrollback.io/" target="_blank">
+					<img src="images/conversations.png" border="8" class="img-sca" width="200" height="200" />
+				</a><br /><br />
+				<h4>By someone you trust</h4><br />
+				<p>By An Open Source Organization</p>
 			</div>
 		</div>
 	</div>
-	
-	<div id="social" style="width:100%; height:280px; background:#0B040B;">
+
+	<div id="social">
 		<h1>Connect With Us On</h1><br />
 		<a href="https://scrollback.io/help" target="_blank"><img src="images/scrollback.png" width="48" height="48"/></a>
-		<a href="https://www.facebook.com/scrollback" target="_blank"><img src="images/facebook.png" width="45" height="45" style="margin-left:20px;" /></a>
-		<a href="https://twitter.com/Scrollbackio" target="_blank"><img src="images/twitter_logo.png" width="45" height="45" style="margin-left:20px;" /></a>
-		<a href="https://www.linkedin.com/company/scrollback" target="_blank"><img src="images/linkedin.png" width="45" height="45" style="margin-left:20px;" /></a>
-		<a href="mailto:evans@scrollback.io" target="_blank"><img src="images/email.png" width="45" height="45" style="margin-left:20px;" /></a>
+		<a href="https://www.facebook.com/scrollback" target="_blank"><img src="images/facebook.png" width="45" height="45" class="img" /></a>
+		<a href="https://twitter.com/Scrollbackio" target="_blank"><img src="images/twitter_logo.png" width="45" height="45" class="img" /></a>
+		<a href="https://www.linkedin.com/company/scrollback" target="_blank"><img src="images/linkedin.png" width="45" height="45" class="img" /></a>
+		<a href="mailto:evans@scrollback.io" target="_blank"><img src="images/email.png" width="45" height="45" class="img" /></a>
 		
 		<br /><br /><hr /><br />
 		
 		<p>Scrollback is a product of Askabt Pte. Ltd. We respect your privacy. Copyright Askabt Pte. Ltd.</p><br />
-		<a href="http://www.softlayer.com/" target="_blank"><img src="images/softlayer.png" /></a> <a href="http://www.browserstack.com/" target="_blank"><img src="images/browserstack.png" /></a>
+		<a href="http://www.softlayer.com/" target="_blank"><img src="images/softlayer.png" /></a>
+		<a href="http://www.browserstack.com/" target="_blank"><img src="images/browserstack.png" /></a>
 	</div>
 	
 </body>
